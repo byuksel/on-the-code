@@ -88,9 +88,9 @@ We are going to use package.el mode. You need to have Emacs 24 or later. Add “
 '("marmalade" . "http://marmalade-repo.org/packages/"))
 {% endhighlight %}
 
-Hit `M-x package-install-packages`, search for elpy by typing C-s elpy. Hit “I” to select, and then hit “X” to execute the installation. Package mode now should install about 12 packages.
+Hit `M-x package-install-packages`, search for elpy by typing `C-s elpy`. Hit “I” to select, and then hit “X” to execute the installation. Package mode now should install about 12 packages.
 
-Syntax error highligthing shows what error it is when your hover over your mouse on the error. But you can also get this message at the cursor. If you want this(this is optional), we need to do the same thing for flymake-cursor mode. Hit C-s flymake-cursor, hit “I” and then “X” to install the package.
+Syntax error highligthing shows what error it is when your hover over your mouse on the error. But you can also get this message at the cursor. If you want this(this is optional), we need to do the same thing for flymake-cursor mode. Hit `C-s flymake-cursor`, hit “I” and then “X” to install the package.
 
 **3. Add configuration lines to your .emacs**
 
@@ -103,7 +103,7 @@ Add these two lines to your .emacs file.
 
 **4. Fix 2 bugs with keybindings**
 
-Unfortunately, elpy.el came with 2 bugs for my installation: the keybindings for snippet expansion and simultaneous editing did not work. I had to change these bindings in the .emacs file. I picked the keybinding C-c k for snippet expansion and C-c o for simultaneous editing. They are ultimately random. You can change them if you like. So, for now, just add these two lines to your .emacs file after (elpy-enable) line:
+Unfortunately, elpy.el came with 2 bugs for my installation: the keybindings for snippet expansion and simultaneous editing did not work. I had to change these bindings in the .emacs file. I picked the keybinding `C-c k` for snippet expansion and `C-c o` for simultaneous editing. They are ultimately random. You can change them if you like. So, for now, just add these two lines to your **.emacs** file after `(elpy-enable)` line:
 
 {% highlight lisp %}
 ;; Fixing a key binding bug in elpy
@@ -149,5 +149,7 @@ And another short video for the usage instructions this time:
 
 Links:
 
-1. Big kudos to Jorgen Schäfer who coded up Elpy Mode. It used to be a big pain in the back to install all these packages seperately. But now, it literally takes minutes to get them all. Thank you again!“Elpy Mode”
-2. PEP8 or Style Guide for Python from Python Foundation is awesome. PEP8
+1. Big kudos to Jorgen Schäfer who coded up Elpy Mode. It used to be a big pain in the back to install all these packages seperately. But now, it literally takes minutes to get them all. Thank you again! [Github: Elpy Mode](https://github.com/jorgenschaefer/elpy)
+2. PEP8 or Style Guide for Python from Python Foundation is awesome. [PEP8](http://legacy.python.org/dev/peps/pep-0008/)
+
+*Baris Yuksel*
