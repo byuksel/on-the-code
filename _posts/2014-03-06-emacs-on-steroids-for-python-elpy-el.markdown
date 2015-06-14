@@ -137,14 +137,14 @@ You should be good to go. Restart your Emacs and open a Python file, and code aw
 Here is the short video for the installation instructions:
 
 <div class="outerDiv">
-<div class="imgDiv"><iframe class="video" frameborder="0" height="315" src="//www.youtube.com/embed/0kuCeS-mfyc" width="560"></iframe></div>
+<div class="videoWrapper"><iframe class="video" frameborder="0" src="//www.youtube.com/embed/0kuCeS-mfyc"></iframe></div>
 </div>
 
 <br>
 And another short video for the usage instructions this time:
 
 <div class="outerDiv">
-<div class="imgDiv"><iframe frameborder="0" height="315" id="video" src="https://www.youtube.com/embed/mflvdXKyA_g" width="560"></iframe></div>
+<div class="videoWrapper"><iframe frameborder="0" class="video" src="https://www.youtube.com/embed/mflvdXKyA_g"></iframe></div>
 </div>
 
 Links:
