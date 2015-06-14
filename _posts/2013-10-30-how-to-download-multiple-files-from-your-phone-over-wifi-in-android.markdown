@@ -16,7 +16,7 @@ I chose to install the demo version of the FTP server written by Pietr Parait. Y
 
 <div class="outerDiv">
 <div class="imgDiv"><img alt="image" class="midImage" src="/assets/how-to-download/01_qr_code.png"></div>
-</div>
+</div><br>
 
 **2.Start the server on your phone**
 
@@ -24,7 +24,7 @@ Click “Running” and then your server starts on 192.168.0.12 port 2121 (your 
 
 <div class="outerDiv">
 <div class="imgDiv"><img alt="image" class="midImage" src="/assets/how-to-download/03_ftp_server.png" width="305"></div>
-</div>
+</div><br>
 
 **3.Install an FTP client to your computer**
 
@@ -32,7 +32,7 @@ You can either go the old school way and use your command-line ftp client that c
 
 <div class="outerDiv">
 <div class="imgDiv"><img alt="image" class="midImage" src="/assets/how-to-download/04_filezilla.png"></div>
-</div>
+</div><br>
 
 **4.Connect and download**
 
