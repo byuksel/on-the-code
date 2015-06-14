@@ -9,7 +9,7 @@ Code and website in one repository : 2015 did not give us *“Back to the Future
 
 **Creating a repo for your code**
 
-As of June 2015, you still cannot do this on the command line for GitHub. You can do it on the website or if you are over zealous, you can use the API with a RESTful client. For now, let’s say you like the simpler approach and do it on the website. First login to your account, and then click on this link and create your repository:
+As of June 2015, you still cannot do this on the command line for GitHub. You can do it on the website or if you are over zealous, you can use the API with a RESTful client. Let's take the simpler approach: first login to your account, and then click on this link and create your repository:
 
 >[https://github.com/new](https://github.com/new)
 
