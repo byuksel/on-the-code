@@ -3,10 +3,24 @@
    @include media-query($on-palm) {
       float:clear;
   }
+
+  @include media-query($on-laptop) {  
+      float:clear;
+  }
+
 }
 
 .container-header {
   float:left;
+     @include media-query($on-palm) {
+      float:clear;
+  }
+
+  @include media-query($on-laptop) {  
+      float:clear;
+  }
+
+
 }
 
 
