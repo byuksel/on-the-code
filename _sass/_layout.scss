@@ -1,3 +1,15 @@
+.container-header {
+  float: left;
+   @include media-query($on-palm) {
+      float:clear;
+  }
+}
+
+.container-header {
+  float:left;
+}
+
+
 /**
  * Site header
  */
