@@ -10,9 +10,9 @@
 
 }
 
-.container-header {
+.container-content {
   float:left;
-     @include media-query($on-palm) {
+  @include media-query($on-palm) {
       float:clear;
   }
 
