@@ -65,7 +65,7 @@ The real-time immediate feedback really improves the development cycles as well 
 And voila, here is the short video for instructions:
 
 <div class="outerDiv">
-<div class="imgDiv"><iframe frameborder="0" height="315" id="video" src="//www.youtube.com/embed/mnfPRLlsXqU" width="560"></iframe></div>
+<div class="videoWrapper"><iframe frameborder="0" class="video" src="//www.youtube.com/embed/mnfPRLlsXqU"></iframe></div>
 </div><br>
 
 Links

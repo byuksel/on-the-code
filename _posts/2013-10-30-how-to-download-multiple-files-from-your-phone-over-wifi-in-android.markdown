@@ -42,6 +42,6 @@ Have a great downloading time, and save yourself from getting gray hair,
 And voila, here is the short video for instructions:
 
 <div class="outerDiv">
-<div class="imgDiv">
-<iframe frameborder="0" height="315" id="video" src="//www.youtube.com/embed/kpc7Y-au7Gg" width="560"></iframe>
+<div class="videoWrapper">
+<iframe frameborder="0" class="video" src="//www.youtube.com/embed/kpc7Y-au7Gg"></iframe>
 </div></div>
