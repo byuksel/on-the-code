@@ -24,10 +24,10 @@ Your code will live on the master branch. By default, everything you check-in to
 
 {% highlight bash %}
 cd /project-directory
-git clone --branch master  http://github.com/<user>/<repo>.git  <repo>-master
+git clone http://github.com/<user>/<repo>.git  <repo>-master
 {% endhighlight %}
 
-Let’s add a simple python file, and push it to the repository.
+When you clone, git should say something like `warning: You appear to have cloned an empty repository.`. This is expected, as we did not put anything into our repo yet.  So, let’s add a simple python file, and push it to the repository.
 
 {% highlight bash %}
 cd <repo>-master
