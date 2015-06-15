@@ -1,28 +1,22 @@
 .container-header {
   float: left;
    @include media-query($on-palm) {
-      float:clear;
+      float:none;
   }
-
-  @include media-query($on-laptop) {  
-      float:clear;
-  }
-
 }
 
 .container-content {
   float:left;
   @include media-query($on-palm) {
-      float:clear;
+      float:none;
   }
-
-  @include media-query($on-laptop) {  
-      float:clear;
-  }
-
-
 }
 
+.site-information {
+   @include media-query($on-palm) {
+      display:none;
+  }
+}
 
 /**
  * Site header
