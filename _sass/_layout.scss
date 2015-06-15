@@ -6,8 +6,10 @@
 
 .container-header {
   float: left;
+  margin-top: 20px;
    @include media-query($on-palm) {
       float:none;
+      margin-top:0;
   }
 }
 
@@ -15,9 +17,11 @@
   float:left;
   display: inline-block;
   margin-top: -10px;
+  margin-left: 120px;
   @include media-query($on-palm) {
       float:none;
       margin-top: 0;
+      margin-left: 0;
   }
 }
 
@@ -44,7 +48,7 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 20px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
