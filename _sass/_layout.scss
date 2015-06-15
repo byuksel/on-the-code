@@ -7,8 +7,11 @@
 
 .container-content {
   float:left;
+  display: inline-block;
+  margin-top: 10px;
   @include media-query($on-palm) {
       float:none;
+      margin-top: 0;
   }
 }
 
