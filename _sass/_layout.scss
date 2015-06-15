@@ -2,6 +2,11 @@
   width: 1200px;        
   min-width: 1000px;
   margin: 0 auto;
+   @include media-query($on-palm) {
+     width: inherit;
+     min-width: inherit;
+     margin: inherit;
+  }
 }
 
 .container-header {
@@ -20,8 +25,8 @@
   margin-left: 120px;
   @include media-query($on-palm) {
       float:none;
-      margin-top: 0;
-      margin-left: 0;
+      margin: inherit; 
+      display: inherit;
   }
 }
 
