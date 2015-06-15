@@ -2,6 +2,7 @@
 layout: post
 title:  "Master and gh-pages in Github: keep your code and website in the same repo"
 date:   2015-06-14 16:11:00
+comments: true
 categories: post
 ---
 <span class="leftImage imgDiv"><img alt="The reason" src="/assets/master-and-gh/00_intro.jpg" width="405/"></span>
