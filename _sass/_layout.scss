@@ -1,3 +1,9 @@
+.container-main {
+  width: 1200px;        
+  min-width: 1000px;
+  margin: 0 auto;
+}
+
 .container-header {
   float: left;
    @include media-query($on-palm) {
@@ -8,7 +14,7 @@
 .container-content {
   float:left;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: -10px;
   @include media-query($on-palm) {
       float:none;
       margin-top: 0;
@@ -25,12 +31,16 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    
+    
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    @include media-query($on-palm) {     
+       border-top: 5px solid $grey-color-dark;
+       border-bottom: 1px solid $grey-color-light;
+   }
 }
 
 .site-title {
