@@ -5,13 +5,14 @@ date:   2015-06-16 00:08:00
 comments: true
 categories: post
 ---
+<span class="leftImage imgDiv"><img alt="The reason" src="/assets/one-minute/00_intro.png" width="405/"></span>
 I have one of the “fastest” recipes for setting up on a Jekyll blog on GitHub pages from command-line. And I hereby give this recipe to you. If you have Jekyll installed on your computer, it will take you less than 1 minute to set up your own website which you can manage with Jekyll. And of course, you can skip all this and fork the template I created in this post which lives at [gh-pages-orphan-branch-template](https://github.com/byuksel/gh-pages-orphan-branch-template).
 
 The birdview process is this: we will first create a new Jekyll project using `jekyll new` command. This will create a bunch of files. To these files, we will add a file named "Gemfile" instructing Jekyll to install a few packages necessary for GitHub integration, and run an install command.  Then we will initialize this directory for git,  add a remote, and checkout the “gh-pages” branch.. Once we commit all the files and push to “gh-pages” branch, your website will be live on the internet hosted by GitHub.
 
 <!--more-->
 
-##1-minute Jekyll on GitHub Pages setup##
+**1-minute Jekyll recipe**
 
 First login to your GitHub account on your browser, and then click on this link and create your repository:
 
@@ -39,7 +40,7 @@ Let’s now push all the content to the “gh-pages” branch of GitHub.
 
 {% highlight bash %}
 git init
-git remote add origin https://github.com/byuksel/gh-pages-orphan-branch-template.git
+git remote add origin https://github.com/<user>/<repo>.git
 git checkout --orphan gh-pages
 git add .
 git push origin gh-pages
