@@ -1,7 +1,7 @@
 # Site settings
 title: on the code...
 email: baris [at] onehundredyearsofcode.com
-description: Writings and how-to's for everyday programmer with a curious mind.
+description: Writings and how-to's for the everyday programmer with a curious mind.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://onthecode.com" # the base hostname & protocol for your site
 twitter_username: baris_wonders
