@@ -29,7 +29,6 @@ If you are going to use *Android*, you should install [Android SDK](http://www.g
 
 Now that you have cordova, let's create an app. 
 
-
 {% highlight bash %}
  cordova create <name-of-the-app-directory> <reverse-com-name> <app-name>
 {% endhighlight %}
@@ -47,22 +46,22 @@ This will create the directory called 'myapp' with a sample app in it. Let's now
  cordova platform add android
 {% endhighlight %}
 
-Let's also add support for iOs.
+Let's also add support for iOS.
 {% highlight bash %}
  cordova platform add ios
 {% endhighlight %}
 
 **Creating and Starting Your Android Emulator**
 
-Type `android` on your commandline. This should start 'Android SDK Manager'. Click 'Tools' and 'Manage AVDs'. Click on 'Create' to create a new *Android Virtual Device* and then 'Start' to start it so that Cordova can use it.
+Type `android` on your terminal. This should start 'Android SDK Manager' (If this does not work, you either don't have 'Android SDK Manager' installed or you don't have it on your PATH enviorment variable). Once, 'Android SDK Manager' starts, click 'Tools' and 'Manage AVDs'. Click on 'Create' to create a new *Android Virtual Device* and then 'Start' to start it so that Cordova can use it.
 
-'Android SDK Manager' is a continously developed product. I won't be giving instructions on how to create your AVD as it may be obsolute very quickly. Instead please follow the most up-to-date documentation on Android's site to create and start your AVD.
+'Android SDK Manager' is a rapidly developed product. Its menu options change frequently. I won't be giving instructions on how to create your AVD using 'Android SDK Manager' as it will most likely be obsolute very quickly. Instead please follow the most up-to-date documentation on Android's website to create and start your AVD.
 
 **Your first app**
 
 The gist of Cordova is to design and build everything as a Single Page Application. You should update the html of your single page dynamically if you want to have multiple pages. 
 
-*index.html* (under `myapp/www/index.html`) and *index.js* (under `myapp/www/js/index.js`  are going to be the basic building blocks of our app. We will use index.html to create the layout of our app and *index.js*.  
+*index.html* (under `myapp/www/index.html`) and *index.js* (under `myapp/www/js/index.js`) are going to be the basic building blocks of our app. We will use index.html to create the layout of our app and *index.js*.  
 
 Let's add a button to our index.html file. 
 {% highlight html %}
@@ -92,12 +91,18 @@ function pressed() {
 Let's send this app to Android and iOS emulators:
 {% highlight bash %}
  cordova emulate android
+{% endhighlight %}
+
+<div class="outerDiv">
+<div class="imgDiv">
+<img alt="The reason" src="/assets/cordova/01_android.png" width="405/"></div>
+</div>
+
+<br><br>
+{% highlight bash %}
  cordova emulate ios
 {% endhighlight %}
 <div class="outerDiv">
-
-<div class="imgDiv"><img alt="The reason" src="/assets/cordova/01_android.png" width="405/"></div>
-
 <div class="imgDiv"><img alt="The reason" src="/assets/cordova/02_iphone.png" width="405/"></div>
 </div>
 
